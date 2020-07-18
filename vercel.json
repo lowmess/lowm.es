@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "alias": ["lowm.es", "lowmess-shortener"],
+  "redirects": [
+    {
+      "source": "/hero-patterns",
+      "destination": "https://hero-patterns.lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/cv",
+      "destination": "https://resume.lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/stats",
+      "destination": "https://stats.lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/records",
+      "destination": "https://most-wanted.lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/dotfiles",
+      "destination": "https://github.com/lowmess/dotfiles",
+      "permanent": true
+    },
+    {
+      "source": "/repo",
+      "destination": "https://github.com/lowmess/lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/repos",
+      "destination": "https://github.com/lowmess",
+      "permanent": true
+    },
+    {
+      "source": "/tweets",
+      "destination": "https://twitter.com/lowmess",
+      "permanent": true
+    },
+    {
+      "source": "/pay",
+      "destination": "https://cash.app/$lowmess",
+      "permanent": true
+    },
+    {
+      "source": "/job",
+      "destination": "https://hiringsolved.com",
+      "permanent": false
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.lowmess.com/$1",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "destination": "https://www.lowmess.com",
+      "permanent": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  ["/stats", "https://stats.lowmess.com"],
+  ["/records", "https://most-wanted.lowmess.com"],
+  ["/cv", "https://resume.lowmess.com"],
+  ["/patterns", "https://hero-patterns.lowmess.com"],
+  ["/dotfiles", "https://github.com/lowmess/dotfiles"],
+  ["/repo", "https://github.com/lowmess/lowmess.com"],
+  ["/repos", "https://github.com/lowmess"],
+  ["/tweets", "https://twitter.com/lowmess"],
+  ["/pay", "https://cash.app/$lowmess"],
+  ["/job", "https://hiringsolved.com", false],
+  ["/(.*)", "https://www.lowmess.com/$1", false],
+  ["/", "https://www.lowmess.com"]
+]
