@@ -1,8 +1,7 @@
 {
   "name": "lowm.es",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple URL shortener",
-  "main": "",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel"
@@ -13,12 +12,6 @@
   },
   "author": "Alec Lomas <alec@lowmess.com>",
   "license": "MIT",
-  "dependencies": {
-    "@types/express": "^4.17.7",
-    "@types/node": "^14.0.23",
-    "express": "^4.17.1",
-    "typescript": "^3.9.7"
-  },
   "devDependencies": {
     "eslint": "^7.5.0",
     "eslint-config-lowmess": "^4.0.0",
