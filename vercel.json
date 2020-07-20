@@ -3,8 +3,13 @@
   "alias": ["lowm.es", "lowmess-shortener"],
   "redirects": [
     {
-      "source": "/hero-patterns",
-      "destination": "https://hero-patterns.lowmess.com",
+      "source": "/stats",
+      "destination": "https://stats.lowmess.com",
+      "permanent": true
+    },
+    {
+      "source": "/records",
+      "destination": "https://most-wanted.lowmess.com",
       "permanent": true
     },
     {
@@ -13,13 +18,8 @@
       "permanent": true
     },
     {
-      "source": "/stats",
-      "destination": "https://stats.lowmess.com",
-      "permanent": true
-    },
-    {
-      "source": "/records",
-      "destination": "https://most-wanted.lowmess.com",
+      "source": "/patterns",
+      "destination": "https://hero-patterns.lowmess.com",
       "permanent": true
     },
     {
@@ -50,6 +50,11 @@
     {
       "source": "/job",
       "destination": "https://hiringsolved.com",
+      "permanent": false
+    },
+    {
+      "source": "/b/(.*)",
+      "destination": "https://www.lowmess.com/blog/$1",
       "permanent": false
     },
     {
