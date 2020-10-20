@@ -48,23 +48,18 @@
       "permanent": true
     },
     {
-      "source": "/job",
-      "destination": "https://hiringsolved.com",
-      "permanent": false
-    },
-    {
       "source": "/b/(.*)",
-      "destination": "https://www.lowmess.com/blog/$1",
+      "destination": "https://lowmess.com/blog/$1",
       "permanent": false
     },
     {
       "source": "/(.*)",
-      "destination": "https://www.lowmess.com/$1",
+      "destination": "https://lowmess.com/$1",
       "permanent": false
     },
     {
       "source": "/",
-      "destination": "https://www.lowmess.com",
+      "destination": "https://lowmess.com",
       "permanent": true
     }
   ]

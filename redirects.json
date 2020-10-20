@@ -8,8 +8,7 @@
   ["/repos", "https://github.com/lowmess"],
   ["/tweets", "https://twitter.com/lowmess"],
   ["/pay", "https://cash.app/$lowmess"],
-  ["/job", "https://hiringsolved.com", false],
-  ["/b/(.*)", "https://www.lowmess.com/blog/$1", false],
-  ["/(.*)", "https://www.lowmess.com/$1", false],
-  ["/", "https://www.lowmess.com"]
+  ["/b/(.*)", "https://lowmess.com/blog/$1", false],
+  ["/(.*)", "https://lowmess.com/$1", false],
+  ["/", "https://lowmess.com"]
 ]
